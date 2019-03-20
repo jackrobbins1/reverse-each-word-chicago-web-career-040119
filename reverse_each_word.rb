@@ -4,5 +4,3 @@ def reverse_each_word(str)
   arr.each { |el| newArr << el.reverse }
   puts newArr.join(" ")
 end
-
-reverse_each_word("This is a test")
