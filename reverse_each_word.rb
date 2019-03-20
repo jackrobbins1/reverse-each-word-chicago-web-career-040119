@@ -1,6 +1,6 @@
 def reverse_each_word(str)
   arr = str.split(" ")
-  puts arr
+  print arr.each { |el| el.reverse }
 end
 
 reverse_each_word("This is a test")
